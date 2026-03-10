@@ -1,0 +1,234 @@
+body{
+    background:#dcdcdc;
+    font-family:serif;
+}
+
+
+
+
+.navbar {
+    background-color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    color: #4f46e5;
+}
+
+
+
+
+.card{
+    width:900px;
+    margin:50px auto;
+    background:#eeeeee;
+    padding:30px;
+    border-radius:15px;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.text{
+    width:65%;
+}
+
+.text h2{
+    font-size:28px;
+    margin:5px 0;
+}
+
+.text h3{
+    margin-top:20px;
+}
+
+.photo img{
+    width:150px;
+    border-radius:15px;
+}
+
+
+.card{
+    width:900px;
+    margin:50px auto;
+    background:#eeeeee;
+    padding:30px;
+    border-radius:15px;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.text{
+    width:65%;
+}
+
+.text h2{
+    font-size:28px;
+    margin:5px 0;
+}
+
+.text h3{
+    margin-top:20px;
+}
+
+.project{
+    padding: 50px;
+}
+
+.card-project{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+
+    padding: 40px;
+    border-radius: 15px;
+
+    max-width: 900px;
+    margin: auto;
+}
+
+.project-card{
+    background: #f2f2f2;
+    padding: 40px;
+    border-radius: 20px;
+    width: 10px;
+    margin: auto;
+}
+
+.project-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.project-images{
+    display: grid;
+    gap: 20px;
+}
+
+.project-images img{
+    width: 260px;
+    border-radius: 15px;
+}
+
+.project-text{
+    max-width: 500px;
+}
+
+.project-text h3{
+    margin-bottom: 10px;
+}
+
+.project-text p{
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.btn{
+    display: block;
+    width: fit-content;
+    margin: 30px auto;   
+
+    padding: 12px 25px;
+    background: #2f55d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: #1d3fb8;
+    transform: translateY(-3px);
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.Card-contact{
+    width:900px;
+    margin:50px auto;
+    background:#eeeeee;
+    padding:30px;
+    border-radius:15px;
+}
+
+.title3 {
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.logoWa {
+    height: 45px;
+}
+
+.text1 {
+    font-size: 30px;
+}
+
+.logoIg {
+    height: 45px;
+}
+
+.text2 {
+    font-size: 30px;
+}
+
+.logoGmail {
+    height: 45px;
+}
+
+.text3 {
+    font-size: 30px;
+}
+
+.Footer {
+    text-align: center;
+    font-size: 20px;
+}
