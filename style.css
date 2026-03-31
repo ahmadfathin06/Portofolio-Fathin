@@ -192,6 +192,7 @@ body{
 
 .Card-contact{
     width:900px;
+    height: 500px;
     margin:50px auto;
     background:#eeeeee;
     padding:30px;
@@ -206,29 +207,60 @@ body{
 
 .logoWa {
     height: 45px;
+    align-items: center;
 }
 
 .text1 {
     font-size: 30px;
+    align-items: center;
 }
 
 .logoIg {
     height: 45px;
+    align-items: center;
 }
 
 .text2 {
     font-size: 30px;
+    align-items: center;
 }
 
 .logoGmail {
     height: 45px;
+    align-items: center;
 }
 
 .text3 {
     font-size: 30px;
+    align-items: center;
 }
 
 .Footer {
-    text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    align-items: center;
+}
+
+.skills {
+    text-align: start;
+    align-items: center;
+}
+
+.html {
+    height: 45px;
+    align-items: center;
+}
+
+.css {
+    height: 45px;
+    align-items: center;
+}
+
+.java {
+    height: 45px;
+    align-items: center;
+}
+
+.figma {
+    height: 45px;
+    align-items: center;
 }

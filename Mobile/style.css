@@ -1,221 +1,360 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+body{
+    background:#dcdcdc;
+    font-family:serif;
 }
 
-body {
-    
-    font-style: normal;
-}
+
 
 
 .navbar {
-    background-color: #ffffff;
-    border-bottom: 1px solid black;
-    padding: 15px 0;
-}
-
-
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: auto;
+    background-color: white;
+    padding: 15px 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 900px;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
-
-body {
-    background: rgb(0, 0, 0);
-    color: rgb(255, 254, 254);
-}
-
-.container {
-    width: 90%;
-    max-width: 1100px;
-    margin: auto;
-}
-
-/* NAVBAR */
-header {
-    background: rgb(0, 0, 0);
-    padding: 15px 0;
-}
-
-.nav {
+.navbar ul {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav ul {
     list-style: none;
-    display: flex;
     gap: 20px;
 }
 
-.nav a {
+.navbar ul li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-}
-
-.nav a:hover {
-    color: #00aaff;
-}
-
-
-.section-title {
-    text-align: center;
-    background: white;
     color: black;
-    display: inline-block;
-    padding: 8px 25px;
-    margin: 30px auto;
-    font-weight: bold;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover {
+    color: #4f46e5;
 }
 
 
-.hero {
-    background: url("bg.jpg") center/cover no-repeat;
-    padding: 60px 0;
+
+
+.card{
+    width:900px;
+    margin:50px auto;
+    background:#eeeeee;
+    padding:30px;
+    border-radius:15px;
 }
 
-.overlay {
-    background: rgba(0,0,0,0.8);
-    padding: 40px 0;
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
 }
 
-.hero-content {
+.content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.text{
+    width:65%;
+}
+
+.text h2{
+    font-size:28px;
+    margin:5px 0;
+}
+
+.text h3{
+    margin-top:20px;
+}
+
+.photo img{
+    width:150px;
+    border-radius:15px;
+}
+
+
+.card{
+    width:900px;
+    margin:50px auto;
+    background:#eeeeee;
+    padding:30px;
+    border-radius:15px;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.content{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.text{
+    width:65%;
+}
+
+.text h2{
+    font-size:28px;
+    margin:5px 0;
+}
+
+.text h3{
+    margin-top:20px;
+}
+
+.project{
+    padding: 50px;
+}
+
+.card-project{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 40px;
+
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+
+    padding: 40px;
+    border-radius: 15px;
+
+    max-width: 900px;
+    margin: auto;
 }
 
-.hero-text h2 {
-    font-size: 28px;
-    margin: 10px 0;
+.project-card{
+    background: #f2f2f2;
+    padding: 40px;
+    border-radius: 20px;
+    width: 10px;
+    margin: auto;
 }
 
-.hero-text h3 {
-    margin-top: 15px;
+.project-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
 }
 
-.hero-text p {
-    margin-top: 10px;
+.project-images{
+    display: grid;
+    gap: 20px;
+}
+
+.project-images img{
+    width: 260px;
+    border-radius: 15px;
+}
+
+.project-text{
+    max-width: 500px;
+}
+
+.project-text h3{
+    margin-bottom: 10px;
+}
+
+.project-text p{
+    margin-bottom: 25px;
     line-height: 1.6;
 }
 
-.hero-image img {
-    width: 250px;
-    border-radius: 15px;
-}
+.btn{
+    display: block;
+    width: fit-content;
+    margin: 30px auto;   
 
-
-.project {
-    padding: 60px 0;
-    background: #0b1c2d;
-}
-
-.project-content {
-    display: flex;
-    gap: 30px;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.project-card {
-    background: #162b40;
-    padding: 20px;
-    border-radius: 10px;
-    width: 300px;
-    text-align: center;
-}
-
-.project-card img {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-}
-
-.btn-center {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.btn {
-    background: #0066ff;
+    padding: 12px 25px;
+    background: #2f55d4;
     color: white;
-    padding: 10px 25px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
+
+    transition: 0.3s;
 }
 
-.btn:hover {
-    background: #0044aa;
+.btn:hover{
+    background: #1d3fb8;
+    transform: translateY(-3px);
 }
 
-
-.contact {
-    padding: 60px 0;
-    background: #0d1f33;
+.title{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
 }
 
-.contact-content {
-    display: flex;
-    justify-content: space-between;
+.Card-contact{
+    width:900px;
+    height: 500px;
+    margin:50px auto;
+    background:#eeeeee;
+    padding:30px;
+    border-radius:15px;
+}
+
+.title3 {
+    text-align:center;
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.logoWa {
+    height: 45px;
     align-items: center;
-    gap: 40px;
-    flex-wrap: wrap;
 }
 
-.contact-info p {
-    margin-bottom: 15px;
-    background: #1f3b5c;
-    padding: 10px;
-    border-radius: 5px;
+.text1 {
+    font-size: 30px;
+    align-items: center;
 }
 
-.skills img {
-    width: 40px;
-    margin-right: 10px;
-    margin-top: 10px;
+.logoIg {
+    height: 45px;
+    align-items: center;
 }
 
-.contact-image img {
-    width: 250px;
-    border-radius: 15px;
+.text2 {
+    font-size: 30px;
+    align-items: center;
 }
 
-
-footer {
-    background: black;
-    text-align: center;
-    padding: 15px;
-    font-size: 14px;
+.logoGmail {
+    height: 45px;
+    align-items: center;
 }
 
-/* RESPONSIVE */
-@media(max-width: 720px) {
-    .hero-content,
-    .contact-content {
+.text3 {
+    font-size: 30px;
+    align-items: center;
+}
+
+.Footer {
+    font-size: 25px;
+    align-items: center;
+}
+
+.skills {
+    text-align: start;
+    align-items: center;
+}
+
+.html {
+    height: 45px;
+    align-items: center;
+}
+
+.css {
+    height: 45px;
+    align-items: center;
+}
+
+.java {
+    height: 45px;
+    align-items: center;
+}
+
+.figma {
+    height: 45px;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+
+    .navbar {
+        width: 95%;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    .card, .Card-contact {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .content {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .text {
+        width: 100%;
+    }
+
+    .photo img {
+        width: 80%;
+        margin: auto;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-images img {
+        width: 100%;
+    }
+
+    .project-text {
+        max-width: 100%;
         text-align: center;
     }
 
-    .nav ul {
-        flex-direction: column;
+    .btn {
+        width: 80%;
+        text-align: center;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
         gap: 10px;
+        margin-bottom: 15px;
+    }
+
+    .logoWa, .logoIg, .logoGmail {
+        height: 35px;
+    }
+
+    .text1, .text2, .text3 {
+        font-size: 18px;
+    }
+
+    .skills {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .html, .css, .java, .figma {
+        height: 35px;
+        margin: 5px;
+    }
+
+    .contact-project div:nth-child(5) + div {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .Footer {
+        font-size: 16px;
+        text-align: center;
+        margin-top: 20px;
     }
 }

@@ -1,96 +1,128 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio - Ahmad Fathin</title>
+    <title>Portofolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header>
-        <div class="container nav">
-            <h2>Fullstack Web Developer</h2>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Tentang saya</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Project</a></li>
-                    <li><a href="#">Kontak</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <div class="navbar">
+        <h2>Fullstack Web Developer</h2>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tentang Saya</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Project</a></li>
+        </ul>
+    </div>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
-        <h1>PORTOFOLIO</h1>
-        <p>Hallo!</p>
-        <h2>Saya Ahmad Fathin</h2>
+    <div class="card">
+        <h1 class="title">PORTOFOLIO</h1>
+        <div class="content">
 
-        <div class="profile-img">
-            <img src="profile.jpg" alt="Profile">
-        </div>
+            <div class="text">
+                <p>Hallo!</p>
+                <h2>Saya Ahmad Fathin</h2>
+                <h3>About me</h3>
 
-        <div class="about">
-            <h3>About Me :</h3>
-            <p>
-                Saya berasal dari bekasi yang sedang berpendidikan di jenjang SMA -Sekolah Developer Indonesia dan
-                sedang mempelajari bahasa pemrograman dan ingin menguasai nya, cita-cita saya ingin menjadi seorang
-                programmer
-            </p>
-        </div>
-    </section>
+                <p>
+                    Saya berasal dari bekasi yang sedang berpendidikan
+                    SMA - Sekolah Developer Indonesia dan sedang mempelajari
+                    bahasa pemrograman dan ingin menguasai nya,
+                    cita-cita saya ingin menjadi seorang programmer
+                </p>
+            </div>
 
-    <!-- PROJECT -->
-    <section class="project">
-        <h2>MY PROJECT</h2>
-
-        <div class="card">
-            <h3>Toko Online</h3>
-            <p>Toko ini dibuat dengan rangkaian e-commerce yang dapat diakses dari desktop maupun mobile.</p>
-        </div>
-
-        <div class="card">
-            <h3>Layar Film</h3>
-            <p>Website streaming dengan tampilan modern dan gelap untuk pengalaman menonton lebih nyaman.</p>
-            <img src="images/Layar Film.png" alt="layar film">
-        </div>
-
-        <button class="btn">View more</button>
-    </section>
-
-    <!-- CONTACT -->
-    <section class="contact">
-        <h2>CONTACT</h2>
-
-        <div class="contact-box">📱 0877-2497-4132</div>
-        <div class="contact-box">📷 traythin_</div>
-        <div class="contact-box">✉ ahmadfathin1406@gmail.com</div>
-
-        <div class="profile-contact">
-            <img src="profile.jpg" alt="">
-        </div>
-
-        <div class="skills">
-            <h3>Skills</h3>
-
-            <div class="skill-box">
-                <img src="images/HTML.png" alt="html">
-                <img src="images/CSS.webp" alt="css">
-                <img src="images/JS.webp" alt="JS">
-                <img src="images/figma.webp" alt="figma">
+            <div class="photo">
+                <img src="images/foto saya.jpeg" alt="foto">
             </div>
         </div>
-    </section>
 
-    <footer>
-        <p>Portofolio Fathin, all copyright reserved © 2025</p>
-    </footer>
+    </div>
+
+    <div class="card">
+        <h1 class="title">PROJECT</h1>
+
+        <div class="content">
+            <div class="project-container">
+
+
+                <div class="project-images">
+                    <img src="images/Toko online.png" alt="Toko Online">
+                    <img src="images/Layar Film.png" alt="Layar Film">
+                </div>
+
+
+                <div class="project-text">
+
+                    <div class="project-item">
+                        <h3>Toko Online</h3>
+                        <p>
+                            Toko ini dibuat dengan rangkaian e-commerce.
+                            Toko versi desktop ini bertujuan agar mempermudah
+                            semua orang untuk menggunakan layanan toko ini.
+                        </p>
+                    </div>
+
+                    <div class="project-item">
+                        <h3>Layar Film</h3>
+                        <p>
+                            Website film ini menampilkan platform streaming
+                            dengan tampilan gelap dan modern. Pengguna dapat
+                            melihat poster film, rating, genre, dan sinopsis singkat.
+                        </p>
+                    </div>
+
+                    <a href="#" class="btn">Lihat Kontak Saya</a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Card-contact">
+        <h1 class="title3">CONTACT</h1>
+
+        <div class="content">
+            <div class="contact-project">
+
+                <div class="contact">
+                    <img src="images/logo wa 2.png" class="logoWa">
+                    <span class="text1">: 0877-2497-4132</span>
+                </div>
+                <br>
+                <div class="contact">
+                    <img src="images/instagram1.jpg" class="logoIg">
+                    <span class="text2">: traythin_</span>
+                </div>
+                <br>
+                <div class="contact">
+                    <img src="images/gmail1.jpg" class="logoGmail">
+                    <span class="text3">: madthinn@gmail.com</span>
+                </div>
+                <br>
+                <div>
+                    <p class="skills">Skills :</p>
+                </div>
+                <div>
+                    <img src="images/HTML.png" alt="" class="html">
+                    <img src="images/CSS.webp" alt="" class="css">
+                    <img src="images/JS.webp" alt="" class="java">
+                    <img src="images/figma.webp" alt="" class="figma">
+                </div>
+                <footer>
+                    <p class="Footer">Portofolio Fathin , all copy right reserved © 2025</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
 
 </body>
 
