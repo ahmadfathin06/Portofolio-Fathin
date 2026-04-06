@@ -3,9 +3,6 @@ body{
     font-family:serif;
 }
 
-
-
-
 .navbar {
     background-color: white;
     padding: 15px 40px;
@@ -33,9 +30,6 @@ body{
 .navbar ul li a:hover {
     color: #4f46e5;
 }
-
-
-
 
 .card{
     width:900px;

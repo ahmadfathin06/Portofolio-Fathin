@@ -3,9 +3,6 @@ body{
     font-family:serif;
 }
 
-
-
-
 .navbar {
     background-color: white;
     padding: 15px 40px;
@@ -263,4 +260,80 @@ body{
 .figma {
     height: 45px;
     align-items: center;
+}
+
+
+/* ========================= */
+/* RESPONSIVE DESKTOP */
+/* ========================= */
+@media (min-width: 1024px){
+
+    .navbar {
+        max-width: 1200px;
+        width: 100%;
+        padding: 20px 60px;
+    }
+
+    .card {
+        max-width: 1200px;
+        width: 100%;
+        padding: 50px;
+    }
+
+    .Card-contact {
+        max-width: 1200px;
+        width: 100%;
+        padding: 50px;
+    }
+
+    .content {
+        gap: 50px;
+    }
+
+    .text {
+        width: 60%;
+    }
+
+    .photo img {
+        width: 220px;
+    }
+
+    /* PROJECT SECTION */
+    .project-card {
+        max-width: 1200px;
+        width: 100%;
+    }
+
+    .project-container {
+        gap: 60px;
+    }
+
+    .project-images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .project-images img {
+        width: 100%;
+    }
+
+    .project-text {
+        max-width: 600px;
+    }
+
+    /* BUTTON */
+    .btn {
+        font-size: 18px;
+        padding: 14px 30px;
+    }
+
+    /* TITLE */
+    .title, .title3 {
+        font-size: 48px;
+    }
+
+    /* CONTACT */
+    .text1, .text2, .text3 {
+        font-size: 34px;
+    }
+
 }
