@@ -1,6 +1,13 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body{
     background:#dcdcdc;
     font-family:serif;
+    margin: 0;
 }
 
 .navbar {
@@ -9,7 +16,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 900px;
+    width: 100%;
+    max-width: 900px;
     margin: 20px auto;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
@@ -32,7 +40,8 @@ body{
 }
 
 .card{
-    width:900px;
+    width:100%;
+    max-width:900px;
     margin:50px auto;
     background:#eeeeee;
     padding:30px;
@@ -67,21 +76,6 @@ body{
 .photo img{
     width:150px;
     border-radius:15px;
-}
-
-
-.card{
-    width:900px;
-    margin:50px auto;
-    background:#eeeeee;
-    padding:30px;
-    border-radius:15px;
-}
-
-.title{
-    text-align:center;
-    font-size:40px;
-    margin-bottom:20px;
 }
 
 .content{
@@ -185,7 +179,8 @@ body{
 }
 
 .Card-contact{
-    width:900px;
+    width:100%;
+    max-width:900px;
     height: 500px;
     margin:50px auto;
     background:#eeeeee;
@@ -199,64 +194,78 @@ body{
     margin-bottom:20px;
 }
 
-.logoWa {
-    height: 45px;
-    align-items: center;
+.contact-project {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
 }
 
-.text1 {
-    font-size: 30px;
-    align-items: center;
+.contact-list {
+    width: 100%;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
 }
 
-.logoIg {
-    height: 45px;
+.contact-link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
+    gap: 16px;
+    text-decoration: none;
+    color: inherit;
 }
 
-.text2 {
-    font-size: 30px;
-    align-items: center;
-}
-
+.logoWa,
+.logoIg,
 .logoGmail {
     height: 45px;
-    align-items: center;
 }
 
+.text1,
+.text2,
 .text3 {
     font-size: 30px;
-    align-items: center;
+}
+
+.skills-group {
+    width: 100%;
+    max-width: 420px;
+}
+
+.skills {
+    font-size: 28px;
+    margin-bottom: 12px;
+    text-align: left;
+}
+
+.skills-icons {
+    display: flex;
+    gap: 18px;
+    justify-content: flex-start;
+}
+
+.html,
+.css,
+.java,
+.figma {
+    height: 45px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .Footer {
     font-size: 25px;
-    align-items: center;
-}
-
-.skills {
-    text-align: start;
-    align-items: center;
-}
-
-.html {
-    height: 45px;
-    align-items: center;
-}
-
-.css {
-    height: 45px;
-    align-items: center;
-}
-
-.java {
-    height: 45px;
-    align-items: center;
-}
-
-.figma {
-    height: 45px;
-    align-items: center;
+    text-align: center;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
@@ -314,12 +323,8 @@ body{
         text-align: center;
     }
 
-    .contact {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        margin-bottom: 15px;
+    .contact-link {
+        justify-content: flex-end;
     }
 
     .logoWa, .logoIg, .logoGmail {
@@ -331,19 +336,18 @@ body{
     }
 
     .skills {
-        text-align: center;
+        text-align: right;
         margin-top: 15px;
+    }
+
+    .skills-icons {
+        justify-content: flex-end;
+        flex-wrap: wrap;
     }
 
     .html, .css, .java, .figma {
         height: 35px;
         margin: 5px;
-    }
-
-    .contact-project div:nth-child(5) + div {
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
     }
 
     .Footer {
